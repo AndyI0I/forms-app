@@ -47,6 +47,9 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.labelRating = new System.Windows.Forms.Label();
+            this.submit = new System.Windows.Forms.Button();
+            this.cancel = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
@@ -139,6 +142,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(228, 23);
             this.textBox6.TabIndex = 19;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // label6
             // 
@@ -171,6 +175,7 @@
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(364, 45);
             this.trackBar1.TabIndex = 23;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // label4
             // 
@@ -193,9 +198,10 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(86, 315);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(689, 186);
+            this.richTextBox1.Size = new System.Drawing.Size(689, 154);
             this.richTextBox1.TabIndex = 26;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // label7
             // 
@@ -216,11 +222,45 @@
             this.labelRating.TabIndex = 28;
             this.labelRating.Text = "1";
             // 
+            // submit
+            // 
+            this.submit.Location = new System.Drawing.Point(86, 497);
+            this.submit.Name = "submit";
+            this.submit.Size = new System.Drawing.Size(75, 23);
+            this.submit.TabIndex = 29;
+            this.submit.Text = "submit";
+            this.submit.UseVisualStyleBackColor = true;
+            this.submit.Click += new System.EventHandler(this.submit_Click);
+            // 
+            // cancel
+            // 
+            this.cancel.Location = new System.Drawing.Point(186, 497);
+            this.cancel.Name = "cancel";
+            this.cancel.Size = new System.Drawing.Size(75, 23);
+            this.cancel.TabIndex = 30;
+            this.cancel.Text = "cancel";
+            this.cancel.UseVisualStyleBackColor = true;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(87, 475);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(148, 19);
+            this.checkBox1.TabIndex = 31;
+            this.checkBox1.Text = "Ich akzeptiere die AGBs";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(921, 544);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.cancel);
+            this.Controls.Add(this.submit);
             this.Controls.Add(this.labelRating);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.richTextBox1);
@@ -269,5 +309,8 @@
         private RichTextBox richTextBox1;
         private Label label7;
         private Label labelRating;
+        private Button submit;
+        private Button cancel;
+        private CheckBox checkBox1;
     }
 }

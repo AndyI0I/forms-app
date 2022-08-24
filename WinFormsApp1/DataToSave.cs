@@ -8,14 +8,15 @@ namespace WinFormsApp1
 {
     public class DataToSave
     {
-        private String name;
-        private String nachname;
-        private string email;
-        private String password;
-        private DateTime datum;
-        private string produkt;
-        private int rating;
-        private string bemerkung;
+        private string name = "no name";
+        private string nachname = "no name";
+        private string email = "no mail";
+        private string password = "no password";
+        private DateTime datum = new DateTime();
+        private string produkt = "no product";
+        private int rating = 0;
+        private string bemerkung = "no entry";
+        private bool agb = false;
 
         public string Name { get => name; set => name = value; }
         public string Nachname { get => nachname; set => nachname = value; }
@@ -25,5 +26,6 @@ namespace WinFormsApp1
         public string Produkt { get => produkt; set => produkt = value; }
         public int Rating { get => rating; set => rating = value; }
         public string Bemerkung { get => bemerkung; set => bemerkung = value; }
+        public bool Agb { get => agb; set => agb = value; }
     }
 }
