@@ -1,0 +1,17 @@
+C:\csharp\forms\forms-app\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\csharp\forms\forms-app\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\csharp\forms\forms-app\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\csharp\forms\forms-app\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\csharp\forms\forms-app\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\csharp\forms\forms-app\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
