@@ -220,7 +220,7 @@
             this.labelRating.Name = "labelRating";
             this.labelRating.Size = new System.Drawing.Size(13, 15);
             this.labelRating.TabIndex = 28;
-            this.labelRating.Text = "1";
+            this.labelRating.Text = "0";
             // 
             // submit
             // 

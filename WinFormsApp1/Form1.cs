@@ -64,6 +64,7 @@ namespace WinFormsApp1
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             dataToSave.Rating = trackBar1.Value;
+            labelRating.Text = trackBar1.Value.ToString();
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -73,6 +74,11 @@ namespace WinFormsApp1
 
         private void submit_Click(object sender, EventArgs e)
         {
+            if(!Directory.Exists(@"c:\ZCSHARPFILE"))
+            {
+                Directory.CreateDirectory(@"c:\ZCSHARPFILE");
+
+            }
             string json;
             string directory = @"c:\ZCSHARPFILE";
             string filename = "FIRSTFORM.json";
